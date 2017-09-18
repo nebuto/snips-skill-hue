@@ -14,7 +14,7 @@ setup(
     include_package_data=True,
     keywords=['snips'],
     packages=[
-        'snipshue',
-        '': ['Snipsspec']
-    ]
+        'snipshue'
+    ],
+    package_data={'': ['Snipsspec']}
 )
