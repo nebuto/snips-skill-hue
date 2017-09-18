@@ -12,11 +12,11 @@ setup(
     install_requires=['requests==2.6.0'],
     test_suite="tests",
     keywords=['snips'],
+    include_package_data=True,
     package_data={
     'snipshue': ['Snipsspec'],
     },
     packages=[
         'snipshue'
-    ],
-    include_package_data=True
+    ]
 )
