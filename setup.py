@@ -11,6 +11,7 @@ setup(
     license='MIT',
     install_requires=['requests==2.6.0'],
     test_suite="tests",
+    include_package_data=True,
     keywords=['snips'],
     packages=[
         'snipshue'
